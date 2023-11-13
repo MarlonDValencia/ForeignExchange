@@ -5,13 +5,13 @@ import com.foreign.foreignexchange.domain.generic.Currency;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.foreign.foreignexchange.domain.services.ExternalApiService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.lang.model.util.Elements;
 
 @RestController
 @RequestMapping("/api/foreign-exchange")
+@CrossOrigin(origins = "http://localhost:5173")
 public class ForeignExchangeController {
     @Autowired
     private ExternalApiService externalApiService;

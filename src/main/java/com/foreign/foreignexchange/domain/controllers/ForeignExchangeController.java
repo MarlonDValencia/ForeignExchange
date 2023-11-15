@@ -3,11 +3,14 @@ package com.foreign.foreignexchange.domain.controllers;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.foreign.foreignexchange.domain.generic.Currency;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.foreign.foreignexchange.domain.generic.DTO.ForeignKeyDTO;
+import com.foreign.foreignexchange.domain.generic.entities.ForeignKeyEntity;
 import com.foreign.foreignexchange.domain.services.ExternalApiService;
+import com.foreign.foreignexchange.domain.services.ForeignExchangeKeyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.lang.model.util.Elements;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/foreign-exchange")
@@ -15,6 +18,11 @@ import javax.lang.model.util.Elements;
 public class ForeignExchangeController {
     @Autowired
     private ExternalApiService externalApiService;
+    private final ForeignExchangeKeyRepository foreignExchangeKeyRepository;
+
+    public ForeignExchangeController(ForeignExchangeKeyRepository foreignExchangeKeyRepository) {
+        this.foreignExchangeKeyRepository = foreignExchangeKeyRepository;
+    }
 
     @GetMapping("findAll")
     public Currency getData(){
@@ -65,4 +73,8 @@ public class ForeignExchangeController {
         return conversion;
     }
 
+    @GetMapping("abbreviation")
+    public List<ForeignKeyEntity> abbreviations(){
+        return foreignExchangeKeyRepository.findAll();
+    }
 }

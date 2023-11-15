@@ -1,30 +1,56 @@
 import axios from "axios";
-import React from "react"
+import React, { useState } from "react"
 export default function App() {
-  const getForeignExchange = async () => {
-    try{
-      const url = 'http://localhost:8080/api/foreign-exchange/findAll';
-      const response = await axios.get(url,{headers: {
+  const [exchanges, setExchanges] = useState(0)
+  const getConversion = async (exchange, exchange1, exchange2) => {
+    try {
+      const url = 'http://localhost:8080/api/foreign-exchange/convert';
+      const response = await axios.get(url, {
+        headers: {
           'Access-Control-Allow-Origin': 'http://localhost:5173'
-        }});
-      console.log(response)
-    } catch(error){
+        }, params: {
+          firstExchange: exchange1,
+          secondExchange: exchange2,
+          amount: exchange
+        }
+      });
+      setExchanges(response.data)
+    } catch (error) {
       console.log(error);
     }
   }
 
   return (
     <>
-      <div> 
-        <b5>
+      <div>
+        <h1>
           Foreign Exchanges
-        </b5>
+        </h1>
       </div>
       <div>
-        <button onClick={getForeignExchange}>
-          Get All Exchanges
-        </button>
       </div>
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        const firstExchange = document.getElementById('firstExchange').value;
+        const amount = document.getElementById('amount').value;
+        const secondExchange = document.getElementById('secondExchange').value;
+        getConversion(amount, firstExchange, secondExchange);
+      }}>
+        <select name="Primer divisa" id="firstExchange">
+          <option value="EUR">EUR</option>
+          <option value="COP">COP</option>
+        </select>
+        <input type="number" id="amount"/>
+        <p>To</p>
+        <select name="Segunda divisa" id="secondExchange">
+          <option value="EUR">EUR</option>
+          <option value="COP">COP</option>
+        </select>
+        <button>
+          Convert
+        </button>
+      </form>
+      {exchanges && <p>El valor total es: {exchanges} </p>}
     </>
   )
 }

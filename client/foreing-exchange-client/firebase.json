@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "foreing-exchange-client",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",

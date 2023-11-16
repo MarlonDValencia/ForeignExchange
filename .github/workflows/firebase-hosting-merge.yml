@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          cd client/foreign-exchange-client
+          cd client/foreing-exchange-client
           npm install
           npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0

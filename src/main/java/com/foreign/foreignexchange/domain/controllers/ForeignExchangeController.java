@@ -8,6 +8,7 @@ import com.foreign.foreignexchange.domain.generic.entities.ForeignKeyEntity;
 import com.foreign.foreignexchange.domain.services.ExternalApiService;
 import com.foreign.foreignexchange.domain.services.ForeignExchangeKeyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -8,4 +8,6 @@ import java.util.List;
 @Repository
 public interface ForeignExchangeKeyRepository extends JpaRepository<ForeignKeyEntity,ForeignKeyEntity> {
     List<ForeignKeyEntity> findAll();
+
+    ForeignKeyEntity findByAbbreviation(String abbreviation);
 }

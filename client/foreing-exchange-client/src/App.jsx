@@ -1,8 +1,12 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react"
+import './assets/app.css'
+import './assets/index.css'
+
 export default function App() {
   const [exchanges, setExchanges] = useState(0)
   const [abbreviations, setAbbreviations] = useState([])
+  const [converted, setConverted] = useState("")
   const globalUrl = 'http://localhost:8080/api/foreign-exchange'
 
 useEffect(() => {
@@ -57,42 +61,46 @@ useEffect(() => {
 
   return (
     <>
-    <div>
-      <div>
-        <h1>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="form grid">
+      <div className="flex justify-center items-center">
+        <h1 className="text-violet-500">
           Foreign Exchanges
         </h1>
       </div>
-      <div>
-      </div>
-      <form onSubmit={(e) => {
+      <form className="flex justify-center items-center" onSubmit={(e) => {
         e.preventDefault();
         const firstExchange = document.getElementById('firstExchange').value;
         const amount = document.getElementById('amount').value;
         const secondExchange = document.getElementById('secondExchange').value;
+        const coin = setConverted(secondExchange)
         getConversion(amount, firstExchange, secondExchange);
       }}>
-        <select name="Primer divisa" id="firstExchange">
+        <select className="my-4 mx-2 px-4 py-3 rounded-full border-2 border-black-400" name="Primer divisa" id="firstExchange">
         {abbreviations.map((item) => (
         <option key={item.fullname} value={item.abbreviation}>
           {item.fullname}
         </option>
         ))}
         </select>
-        <input type="number" id="amount"/>
         <p>To</p>
-        <select name="Primer divisa" id="secondExchange">
+        <select className="my-2 mx-2 px-4 py-3 rounded-full border-2 border-black-400" name="Primer divisa" id="secondExchange">
         {abbreviations.map((item) => (
         <option key={item.fullname} value={item.abbreviation}>
           {item.fullname}
         </option>
         ))}
         </select>
-        <button onClick={getAbbreviations}>
+        <button className="my-2 mx-2 px-2.5 py-2.5 text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full" onClick={getAbbreviations}>
           Convert
         </button>
       </form>
-      {exchanges && <p>El valor total es: {exchanges} </p>}
+      <input className="my-2 mx-2 px-4 py-3 rounded-full border-2 border-black-400 " type="number" id="amount"/>
+      <div className="my-2 mx-2 px-4 py-3 rounded-full border-2 border-black-400">
+      {exchanges && converted &&<p>El valor total es: {exchanges.toFixed(2)} {converted}</p>}
+      </div>
+      </div>
+      
       </div>
     </>
   )

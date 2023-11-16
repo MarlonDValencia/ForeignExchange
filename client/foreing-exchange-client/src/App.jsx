@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react"
-import './assets/app.css'
 import './assets/index.css'
 
 export default function App() {

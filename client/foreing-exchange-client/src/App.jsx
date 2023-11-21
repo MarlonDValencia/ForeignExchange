@@ -14,7 +14,7 @@ useEffect(() => {
       const url = globalUrl + '/abbreviation';
       const response = await axios.get(url, {
         headers: {
-          'Access-Control-Allow-Origin': 'http://localhost:5173'
+          'Access-Control-Allow-Origin': 'https://foreign-exch-git-aef50d-marlon-david-valencia-pandales-projects.vercel.app/'
         }
       });
       setAbbreviations(response.data);
@@ -31,7 +31,7 @@ useEffect(() => {
       const url = globalUrl+'/convert';
       const response = await axios.get(url, {
         headers: {
-          'Access-Control-Allow-Origin': 'http://localhost:5173'
+          'Access-Control-Allow-Origin': 'https://foreign-exch-git-aef50d-marlon-david-valencia-pandales-projects.vercel.app/'
         }, params: {
           firstExchange: exchange1,
           secondExchange: exchange2,
@@ -49,7 +49,7 @@ useEffect(() => {
       const url = globalUrl+'/abbreviation';
       const response = await axios.get(url, {
         headers: {
-          'Access-Control-Allow-Origin': 'https://foreign-exchange-btja9brmi.vercel.app/'
+          'Access-Control-Allow-Origin': 'https://foreign-exch-git-aef50d-marlon-david-valencia-pandales-projects.vercel.app/'
         }
       });
       setAbbreviations(response.data)

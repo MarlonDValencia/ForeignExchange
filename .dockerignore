@@ -1,0 +1,67 @@
+### STS ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+**/bin
+!**/**/src/main/**/bin
+!**/**/src/test/**/bin
+
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out
+!**/**/src/main/**/out
+!**/**/src/test/**/out
+
+### NetBeans ###
+nbproject/private
+nbbuild
+dist
+nbdist
+.nb-gradle
+
+### VS Code ###
+**/.vscode
+
+# flyctl launch added from .idea/.gitignore
+# Default ignored files
+.idea/shelf
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests
+# Datasource local storage ignored files
+.idea/dataSources
+.idea/dataSources.local.xml
+
+# flyctl launch added from client/foreing-exchange-client/.gitignore
+# Logs
+client/foreing-exchange-client/**/logs
+client/foreing-exchange-client/**/*.log
+client/foreing-exchange-client/**/npm-debug.log*
+client/foreing-exchange-client/**/yarn-debug.log*
+client/foreing-exchange-client/**/yarn-error.log*
+client/foreing-exchange-client/**/pnpm-debug.log*
+client/foreing-exchange-client/**/lerna-debug.log*
+
+client/foreing-exchange-client/**/node_modules
+client/foreing-exchange-client/**/dist
+client/foreing-exchange-client/**/dist-ssr
+client/foreing-exchange-client/**/*.local
+
+# Editor directories and files
+client/foreing-exchange-client/**/.vscode/*
+!client/foreing-exchange-client/**/.vscode/extensions.json
+client/foreing-exchange-client/**/.idea
+client/foreing-exchange-client/**/.DS_Store
+client/foreing-exchange-client/**/*.suo
+client/foreing-exchange-client/**/*.ntvs*
+client/foreing-exchange-client/**/*.njsproj
+client/foreing-exchange-client/**/*.sln
+client/foreing-exchange-client/**/*.sw?
+fly.toml

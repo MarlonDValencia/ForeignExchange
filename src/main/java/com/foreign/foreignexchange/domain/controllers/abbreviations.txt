@@ -1,0 +1,912 @@
+[
+    {
+
+        "abbreviation": "ADA",
+        "fullname": "Cardano"
+    },
+    {
+
+        "abbreviation": "AED",
+        "fullname": "Dirham de los Emiratos Árabes Unidos"
+    },
+    {
+
+        "abbreviation": "AFN",
+        "fullname": "Afgani afgano"
+    },
+    {
+
+        "abbreviation": "ALL",
+        "fullname": "Lek albanés"
+    },
+    {
+
+        "abbreviation": "AMD",
+        "fullname": "Dram armenio"
+    },
+    {
+
+        "abbreviation": "ANG",
+        "fullname": "Florín antillano neerlandés"
+    },
+    {
+
+        "abbreviation": "AOA",
+        "fullname": "Kwanza angoleño"
+    },
+    {
+
+        "abbreviation": "ARB",
+        "fullname": "Dinar argelino"
+    },
+    {
+
+        "abbreviation": "ARS",
+        "fullname": "Peso argentino"
+    },
+    {
+
+        "abbreviation": "AUD",
+        "fullname": "Dólar australiano"
+    },
+    {
+
+        "abbreviation": "AVAX",
+        "fullname": "Avalanche"
+    },
+    {
+
+        "abbreviation": "AWG",
+        "fullname": "Florín de Aruba"
+    },
+    {
+
+        "abbreviation": "AZN",
+        "fullname": "Manat azerbaiyano"
+    },
+    {
+
+        "abbreviation": "BAM",
+        "fullname": "Marco convertible de Bosnia-Herzegovina"
+    },
+    {
+
+        "abbreviation": "BBD",
+        "fullname": "Dólar de Barbados"
+    },
+    {
+
+        "abbreviation": "BDT",
+        "fullname": "Taka de Bangladés"
+    },
+    {
+
+        "abbreviation": "BGN",
+        "fullname": "Lev búlgaro"
+    },
+    {
+
+        "abbreviation": "BHD",
+        "fullname": "Dinar bahreiní"
+    },
+    {
+
+        "abbreviation": "BIF",
+        "fullname": "Franco burundés"
+    },
+    {
+
+        "abbreviation": "BMD",
+        "fullname": "Dólar de Bermudas"
+    },
+    {
+
+        "abbreviation": "BNB",
+        "fullname": "Bitcoin"
+    },
+    {
+
+        "abbreviation": "BND",
+        "fullname": "Dólar de Brunei"
+    },
+    {
+
+        "abbreviation": "BOB",
+        "fullname": "Boliviano"
+    },
+    {
+
+        "abbreviation": "BRL",
+        "fullname": "Real brasileño"
+    },
+    {
+
+        "abbreviation": "BSD",
+        "fullname": "Dólar de las Bahamas"
+    },
+    {
+
+        "abbreviation": "BTN",
+        "fullname": "Ngultrum de Bután"
+    },
+    {
+
+        "abbreviation": "BUSD",
+        "fullname": "Binance USD"
+    },
+    {
+
+        "abbreviation": "BWP",
+        "fullname": "Pula de Botsuana"
+    },
+    {
+
+        "abbreviation": "BYN",
+        "fullname": "Rublo bielorruso"
+    },
+    {
+
+        "abbreviation": "BYR",
+        "fullname": "Rublo bielorruso (anterior)"
+    },
+    {
+
+        "abbreviation": "BZD",
+        "fullname": "Dólar beliceño"
+    },
+    {
+
+        "abbreviation": "CAD",
+        "fullname": "Dólar canadiense"
+    },
+    {
+
+        "abbreviation": "CDF",
+        "fullname": "Franco congoleño"
+    },
+    {
+
+        "abbreviation": "CHF",
+        "fullname": "Franco suizo"
+    },
+    {
+
+        "abbreviation": "CLF",
+        "fullname": "Unidad de Fomento chilena"
+    },
+    {
+
+        "abbreviation": "CLP",
+        "fullname": "Peso chileno"
+    },
+    {
+
+        "abbreviation": "CNY",
+        "fullname": "Yuan chino"
+    },
+    {
+
+        "abbreviation": "COP",
+        "fullname": "Peso colombiano"
+    },
+    {
+
+        "abbreviation": "CRC",
+        "fullname": "Colón costarricense"
+    },
+    {
+
+        "abbreviation": "CUC",
+        "fullname": "Peso cubano convertible"
+    },
+    {
+
+        "abbreviation": "CUP",
+        "fullname": "Peso cubano"
+    },
+    {
+
+        "abbreviation": "CVE",
+        "fullname": "Escudo de Cabo Verde"
+    },
+    {
+
+        "abbreviation": "CZK",
+        "fullname": "Corona checa"
+    },
+    {
+
+        "abbreviation": "DAI",
+        "fullname": "Dai"
+    },
+    {
+
+        "abbreviation": "DJF",
+        "fullname": "Franco yibutiano"
+    },
+    {
+
+        "abbreviation": "DKK",
+        "fullname": "Corona danesa"
+    },
+    {
+
+        "abbreviation": "DOP",
+        "fullname": "Peso dominicano"
+    },
+    {
+
+        "abbreviation": "DOT",
+        "fullname": "Polkadot"
+    },
+    {
+
+        "abbreviation": "EGP",
+        "fullname": "Libra egipcia"
+    },
+    {
+
+        "abbreviation": "ERN",
+        "fullname": "Nakfa eritreo"
+    },
+    {
+
+        "abbreviation": "ETB",
+        "fullname": "Birr etíope"
+    },
+    {
+
+        "abbreviation": "ETH",
+        "fullname": "Ethereum"
+    },
+    {
+
+        "abbreviation": "EUR",
+        "fullname": "Euro"
+    },
+    {
+
+        "abbreviation": "FJD",
+        "fullname": "Dólar fiyiano"
+    },
+    {
+
+        "abbreviation": "FKP",
+        "fullname": "Libra malvinense"
+    },
+    {
+
+        "abbreviation": "GBP",
+        "fullname": "Libra esterlina británica"
+    },
+    {
+
+        "abbreviation": "GEL",
+        "fullname": "Lari georgiano"
+    },
+    {
+
+        "abbreviation": "GGP",
+        "fullname": "Libra de Guernsey"
+    },
+    {
+
+        "abbreviation": "GHS",
+        "fullname": "Cedi ghanés"
+    },
+    {
+
+        "abbreviation": "GIP",
+        "fullname": "Libra de Gibraltar"
+    },
+    {
+
+        "abbreviation": "GMD",
+        "fullname": "Dalasi gambiano"
+    },
+    {
+
+        "abbreviation": "GNF",
+        "fullname": "Franco guineano"
+    },
+    {
+
+        "abbreviation": "GTQ",
+        "fullname": "Quetzal guatemalteco"
+    },
+    {
+
+        "abbreviation": "GYD",
+        "fullname": "Dólar guyanés"
+    },
+    {
+
+        "abbreviation": "HKD",
+        "fullname": "Dólar de Hong Kong"
+    },
+    {
+
+        "abbreviation": "HNL",
+        "fullname": "Lempira hondureño"
+    },
+    {
+
+        "abbreviation": "HRK",
+        "fullname": "Kuna croata"
+    },
+    {
+
+        "abbreviation": "HTG",
+        "fullname": "Gourde haitiano"
+    },
+    {
+
+        "abbreviation": "HUF",
+        "fullname": "Forinto húngaro"
+    },
+    {
+
+        "abbreviation": "IDR",
+        "fullname": "Rupia indonesia"
+    },
+    {
+
+        "abbreviation": "ILS",
+        "fullname": "Nuevo shéquel israelí"
+    },
+    {
+
+        "abbreviation": "IMP",
+        "fullname": "Libra de la Isla de Man"
+    },
+    {
+
+        "abbreviation": "INR",
+        "fullname": "Rupia india"
+    },
+    {
+
+        "abbreviation": "IQD",
+        "fullname": "Dinar iraquí"
+    },
+    {
+
+        "abbreviation": "IRR",
+        "fullname": "Rial iraní"
+    },
+    {
+
+        "abbreviation": "ISK",
+        "fullname": "Corona islandesa"
+    },
+    {
+
+        "abbreviation": "JEP",
+        "fullname": "Libra jersey"
+    },
+    {
+
+        "abbreviation": "JMD",
+        "fullname": "Dólar jamaicano"
+    },
+    {
+
+        "abbreviation": "JOD",
+        "fullname": "Dinar jordano"
+    },
+    {
+
+        "abbreviation": "JPY",
+        "fullname": "Yen japonés"
+    },
+    {
+
+        "abbreviation": "KES",
+        "fullname": "Chelín keniano"
+    },
+    {
+
+        "abbreviation": "KGS",
+        "fullname": "Som kirguís"
+    },
+    {
+
+        "abbreviation": "KHR",
+        "fullname": "Riel camboyano"
+    },
+    {
+
+        "abbreviation": "KMF",
+        "fullname": "Franco comorense"
+    },
+    {
+
+        "abbreviation": "KPW",
+        "fullname": "Won norcoreano"
+    },
+    {
+
+        "abbreviation": "KRW",
+        "fullname": "Won surcoreano"
+    },
+    {
+
+        "abbreviation": "KWD",
+        "fullname": "Dinar kuwaití"
+    },
+    {
+
+        "abbreviation": "KYD",
+        "fullname": "Dólar de las Islas Caimán"
+    },
+    {
+
+        "abbreviation": "KZT",
+        "fullname": "Tenge kazajo"
+    },
+    {
+
+        "abbreviation": "LAK",
+        "fullname": "Kip laosiano"
+    },
+    {
+
+        "abbreviation": "LBP",
+        "fullname": "Libra libanesa"
+    },
+    {
+
+        "abbreviation": "LKR",
+        "fullname": "Rupia de Sri Lanka"
+    },
+    {
+
+        "abbreviation": "LRD",
+        "fullname": "Dólar liberiano"
+    },
+    {
+
+        "abbreviation": "LSL",
+        "fullname": "Loti lesothense"
+    },
+    {
+
+        "abbreviation": "LTC",
+        "fullname": "Litecoin"
+    },
+    {
+
+        "abbreviation": "LTL",
+        "fullname": "Litas lituano"
+    },
+    {
+
+        "abbreviation": "LVL",
+        "fullname": "Lats letón"
+    },
+    {
+
+        "abbreviation": "LYD",
+        "fullname": "Dinar libio"
+    },
+    {
+
+        "abbreviation": "MAD",
+        "fullname": "Dirham marroquí"
+    },
+    {
+
+        "abbreviation": "MATIC",
+        "fullname": "MATIC"
+    },
+    {
+
+        "abbreviation": "MDL",
+        "fullname": "Leu moldavo"
+    },
+    {
+
+        "abbreviation": "MGA",
+        "fullname": "Ariary malgache"
+    },
+    {
+
+        "abbreviation": "MKD",
+        "fullname": "Denar macedonio"
+    },
+    {
+
+        "abbreviation": "MMK",
+        "fullname": "Kyat birmano"
+    },
+    {
+
+        "abbreviation": "MNT",
+        "fullname": "Tugrik mongol"
+    },
+    {
+
+        "abbreviation": "MOP",
+        "fullname": "Pataca de Macao"
+    },
+    {
+
+        "abbreviation": "MRO",
+        "fullname": "Uguiya mauritana"
+    },
+    {
+
+        "abbreviation": "MUR",
+        "fullname": "Rupia mauriciana"
+    },
+    {
+
+        "abbreviation": "MVR",
+        "fullname": "Rupia de Maldivas"
+    },
+    {
+
+        "abbreviation": "MWK",
+        "fullname": "Kwacha malauí"
+    },
+    {
+
+        "abbreviation": "MXN",
+        "fullname": "Peso mexicano"
+    },
+    {
+
+        "abbreviation": "MYR",
+        "fullname": "Ringgit malayo"
+    },
+    {
+
+        "abbreviation": "MZN",
+        "fullname": "Metical mozambiqueño"
+    },
+    {
+
+        "abbreviation": "NAD",
+        "fullname": "Dólar namibio"
+    },
+    {
+
+        "abbreviation": "NGN",
+        "fullname": "Naira nigeriano"
+    },
+    {
+
+        "abbreviation": "NIO",
+        "fullname": "Córdoba nicaragüense"
+    },
+    {
+
+        "abbreviation": "NOK",
+        "fullname": "Corona noruega"
+    },
+    {
+
+        "abbreviation": "NPR",
+        "fullname": "Rupia nepalí"
+    },
+    {
+
+        "abbreviation": "NZD",
+        "fullname": "Dólar neozelandés"
+    },
+    {
+
+        "abbreviation": "OMR",
+        "fullname": "Rial omaní"
+    },
+    {
+
+        "abbreviation": "OP",
+        "fullname": "OP"
+    },
+    {
+
+        "abbreviation": "PAB",
+        "fullname": "Balboa panameño"
+    },
+    {
+
+        "abbreviation": "PEN",
+        "fullname": "Nuevo sol peruano"
+    },
+    {
+
+        "abbreviation": "PGK",
+        "fullname": "Kina papuana"
+    },
+    {
+
+        "abbreviation": "PHP",
+        "fullname": "Peso filipino"
+    },
+    {
+
+        "abbreviation": "PKR",
+        "fullname": "Rupia paquistaní"
+    },
+    {
+
+        "abbreviation": "PLN",
+        "fullname": "Złoty polaco"
+    },
+    {
+
+        "abbreviation": "PYG",
+        "fullname": "Guaraní paraguayo"
+    },
+    {
+
+        "abbreviation": "QAR",
+        "fullname": "Riyal catarí"
+    },
+    {
+
+        "abbreviation": "RON",
+        "fullname": "Leu rumano"
+    },
+    {
+
+        "abbreviation": "RSD",
+        "fullname": "Dinar serbio"
+    },
+    {
+
+        "abbreviation": "RUB",
+        "fullname": "Rublo ruso"
+    },
+    {
+
+        "abbreviation": "RWF",
+        "fullname": "Franco ruandés"
+    },
+    {
+
+        "abbreviation": "SAR",
+        "fullname": "Riyal saudita"
+    },
+    {
+
+        "abbreviation": "SBD",
+        "fullname": "Dólar de las Islas Salomón"
+    },
+    {
+
+        "abbreviation": "SCR",
+        "fullname": "Rupia seychellense"
+    },
+    {
+
+        "abbreviation": "SDG",
+        "fullname": "Libra sudanesa"
+    },
+    {
+
+        "abbreviation": "SEK",
+        "fullname": "Corona sueca"
+    },
+    {
+
+        "abbreviation": "SGD",
+        "fullname": "Dólar singapurense"
+    },
+    {
+
+        "abbreviation": "SHP",
+        "fullname": "Libra de Santa Elena"
+    },
+    {
+
+        "abbreviation": "SLL",
+        "fullname": "Leone sierraleonés"
+    },
+    {
+
+        "abbreviation": "SOL",
+        "fullname": "Sol peruano"
+    },
+    {
+
+        "abbreviation": "SOS",
+        "fullname": "Chelín somalí"
+    },
+    {
+
+        "abbreviation": "SRD",
+        "fullname": "Dólar surinamés"
+    },
+    {
+
+        "abbreviation": "STD",
+        "fullname": "Dobra santotomense"
+    },
+    {
+
+        "abbreviation": "SVC",
+        "fullname": "Colón salvadoreño"
+    },
+    {
+
+        "abbreviation": "SYP",
+        "fullname": "Libra siria"
+    },
+    {
+
+        "abbreviation": "SZL",
+        "fullname": "Lilangeni suazi"
+    },
+    {
+
+        "abbreviation": "THB",
+        "fullname": "Baht tailandés"
+    },
+    {
+
+        "abbreviation": "TJS",
+        "fullname": "Somoni tayiko"
+    },
+    {
+
+        "abbreviation": "TMT",
+        "fullname": "Manat turcomano"
+    },
+    {
+
+        "abbreviation": "TND",
+        "fullname": "Dinar tunecino"
+    },
+    {
+
+        "abbreviation": "TOP",
+        "fullname": "Paʻanga tongano"
+    },
+    {
+
+        "abbreviation": "TRY",
+        "fullname": "Lira turca"
+    },
+    {
+
+        "abbreviation": "TTD",
+        "fullname": "Dólar de Trinidad y Tobago"
+    },
+    {
+
+        "abbreviation": "TWD",
+        "fullname": "Nuevo dólar taiwanés"
+    },
+    {
+
+        "abbreviation": "TZS",
+        "fullname": "Chelín tanzano"
+    },
+    {
+
+        "abbreviation": "UAH",
+        "fullname": "Grivna ucraniana"
+    },
+    {
+
+        "abbreviation": "UGX",
+        "fullname": "Chelín ugandés"
+    },
+    {
+
+        "abbreviation": "USD",
+        "fullname": "Dólar estadounidense"
+    },
+    {
+
+        "abbreviation": "USDC",
+        "fullname": "USD Coin"
+    },
+    {
+
+        "abbreviation": "USDT",
+        "fullname": "Tether"
+    },
+    {
+
+        "abbreviation": "UYU",
+        "fullname": "Peso uruguayo"
+    },
+    {
+
+        "abbreviation": "UZS",
+        "fullname": "Som uzbeko"
+    },
+    {
+
+        "abbreviation": "VEF",
+        "fullname": "Bolívar venezolano"
+    },
+    {
+
+        "abbreviation": "VND",
+        "fullname": "Dong vietnamita"
+    },
+    {
+
+        "abbreviation": "VUV",
+        "fullname": "Vatu vanuatuense"
+    },
+    {
+
+        "abbreviation": "WST",
+        "fullname": "Tala samoano"
+    },
+    {
+
+        "abbreviation": "XAF",
+        "fullname": "Franco CFA de África Central"
+    },
+    {
+
+        "abbreviation": "XAG",
+        "fullname": "Plata troy"
+    },
+    {
+
+        "abbreviation": "XAU",
+        "fullname": "Oro troy"
+    },
+    {
+
+        "abbreviation": "XCD",
+        "fullname": "Dólar del Caribe Oriental"
+    },
+    {
+
+        "abbreviation": "XDR",
+        "fullname": "Derechos especiales de giro"
+    },
+    {
+
+        "abbreviation": "XOF",
+        "fullname": "Franco CFA de África Occidental"
+    },
+    {
+
+        "abbreviation": "XPD",
+        "fullname": "Paladio"
+    },
+    {
+
+        "abbreviation": "XPF",
+        "fullname": "Franco CFP"
+    },
+    {
+
+        "abbreviation": "XPT",
+        "fullname": "Platino"
+    },
+    {
+
+        "abbreviation": "XRP",
+        "fullname": "XRP"
+    },
+    {
+
+        "abbreviation": "YER",
+        "fullname": "Rial yemení"
+    },
+    {
+
+        "abbreviation": "ZAR",
+        "fullname": "Rand sudafricano"
+    },
+    {
+
+        "abbreviation": "ZMW",
+        "fullname": "Kwacha zambiano"
+    },
+    {
+
+        "abbreviation": "ZWL",
+        "fullname": "Dólar zimbabuense"
+    }
+]

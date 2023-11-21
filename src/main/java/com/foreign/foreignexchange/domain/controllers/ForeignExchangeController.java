@@ -3,20 +3,39 @@ package com.foreign.foreignexchange.domain.controllers;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.foreign.foreignexchange.domain.generic.Currency;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.foreign.foreignexchange.domain.generic.DTO.ForeignKeyDTO;
-import com.foreign.foreignexchange.domain.generic.entities.ForeignKeyEntity;
 import com.foreign.foreignexchange.domain.services.ExternalApiService;
 import com.foreign.foreignexchange.domain.services.ForeignExchangeKeyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 @RestController
 @RequestMapping("/api/foreign-exchange")
 @CrossOrigin(origins = "http://localhost:5173")
 public class ForeignExchangeController {
+    private String leerContenidoArchivo() {
+        StringBuilder contenido = new StringBuilder();
+
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("abbreviations.txt");
+             InputStreamReader streamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
+             BufferedReader br = new BufferedReader(streamReader)) {
+
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                contenido.append(linea).append("\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Contenido del archivo:");
+        System.out.println(contenido.toString());
+
+        return contenido.toString();
+    }
+
     @Autowired
     private ExternalApiService externalApiService;
     private final ForeignExchangeKeyRepository foreignExchangeKeyRepository;
@@ -75,7 +94,7 @@ public class ForeignExchangeController {
     }
 
     @GetMapping("abbreviation")
-    public List<ForeignKeyEntity> abbreviations(){
-        return foreignExchangeKeyRepository.findAll();
+    public String abbreviations(){
+        return leerContenidoArchivo();
     }
 }

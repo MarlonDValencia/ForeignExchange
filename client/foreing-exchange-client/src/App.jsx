@@ -49,7 +49,7 @@ useEffect(() => {
       const url = globalUrl+'/abbreviation';
       const response = await axios.get(url, {
         headers: {
-          'Access-Control-Allow-Origin': 'http://localhost:5173'
+          'Access-Control-Allow-Origin': 'https://foreign-exchange-btja9brmi.vercel.app/'
         }
       });
       setAbbreviations(response.data)

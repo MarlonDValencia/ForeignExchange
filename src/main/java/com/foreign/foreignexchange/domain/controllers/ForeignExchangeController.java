@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 
 @RestController
 @RequestMapping("/api/foreign-exchange")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://foreign-exchange-btja9brmi.vercel.app/")
 public class ForeignExchangeController {
     private String leerContenidoArchivo() {
         StringBuilder contenido = new StringBuilder();

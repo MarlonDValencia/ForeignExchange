@@ -6,7 +6,7 @@ export default function App() {
   const [exchanges, setExchanges] = useState(0)
   const [abbreviations, setAbbreviations] = useState([])
   const [converted, setConverted] = useState("")
-  const globalUrl = 'http://localhost:8080/api/foreign-exchange'
+  const globalUrl = 'https://foreign-exchange-project.fly.dev/api/foreign-exchange'
 
 useEffect(() => {
   const fetchData = async () => {
